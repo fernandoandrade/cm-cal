@@ -1,7 +1,8 @@
 provider "aws" {
   region                  = "us-east-1"
-  access_key              = "AKIAUMD25XDLCQCHBOSD"
-  secret_key              = "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"
+  access_key              = "ASIAUMD25XDLPKISRL3W"
+  secret_key              = "QQa/qXDvaJFtsSsMC7FEI5fapxQgqJAW7Wc1E2UP"
+  token                   = "FwoGZXIvYXdzEFkaDEZLJnuA7ee9mvlgPyK1Adm2m9BWm96zXyIA+qRq2tU50i8HMhywBsC1qQlyTGNudne9XOWIsVyIPlzTJz7ULb+WbLi2mYRSgKagtYJBpMzH6Z5cJuJwQfZq0lpcgmsFLYIJXlabyGlkkrIKhheRP3ROcxC10qE/nUn2a0k52+Ci5zyywLISVzsDN/Cbh45OqBPbxquM9VFAQWu+6TmICP42VpV0xNe1xScwnrJ2NmIeKxG8/Qi5fF9Zx5d9BhnCWJ+tSGQomNrOigYyLaNRp7TENfprFuI2x1JCp2gQbKbDNoB4SE4C/DZx2LrXm71NN2JWi3cFENx3wQ=="
 }
 
 resource "tls_private_key" "private-key" {
