@@ -1,8 +1,7 @@
 provider "aws" {
   region                  = "us-east-1"
-  access_key              = var.access_key
-  secret_key              = var.secret_key
-  token                   = var.session_token
+  access_key              = "AKIAUMD25XDLCQCHBOSD"
+  secret_key              = "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"
 }
 
 resource "tls_private_key" "private-key" {
